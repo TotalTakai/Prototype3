@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3230331689359333493}
   - component: {fileID: 5279171985616078858}
   m_Layer: 0
-  m_Name: Barrel_02
+  m_Name: Obstacle_Barrel
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 7141674900526111678}
   - {fileID: 1114343716509531739}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3316942
 MeshFilter:
@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 7141674900526111678}
   - component: {fileID: 3805042666403303210}
   - component: {fileID: 2858245483031567167}
-  - component: {fileID: 5560827431221953606}
   - component: {fileID: 425761920043922686}
   m_Layer: 0
   m_Name: Barrel_02 (1)
@@ -206,18 +205,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5560827431221953606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7269211995514796869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d307d42465f36429dcf8579be70826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &425761920043922686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -250,7 +237,6 @@ GameObject:
   - component: {fileID: 7888873056102624206}
   - component: {fileID: 5582593005786434308}
   - component: {fileID: 8212939834817746798}
-  - component: {fileID: 62894369693198892}
   - component: {fileID: 1444180126280088995}
   m_Layer: 0
   m_Name: Barrel_02
@@ -324,18 +310,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &62894369693198892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8488283473069569205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d307d42465f36429dcf8579be70826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1444180126280088995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -368,7 +342,6 @@ GameObject:
   - component: {fileID: 1114343716509531739}
   - component: {fileID: 1016848362771261753}
   - component: {fileID: 8478196112275713401}
-  - component: {fileID: 3615609025684307165}
   - component: {fileID: 2396637463188379645}
   m_Layer: 0
   m_Name: Barrel_02 (2)
@@ -442,18 +415,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3615609025684307165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8959585667436920518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d307d42465f36429dcf8579be70826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2396637463188379645
 BoxCollider:
   m_ObjectHideFlags: 0
