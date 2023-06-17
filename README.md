@@ -1,6 +1,7 @@
-# Prototype3 - Avoid-The-Obstacle
-Work In Progress.
+Avoid-The-Obstacle
+Completed game 
 
 
 Learning Unity - prototype 3. Interactive game of Avoid the obstacle :)
-No playable version atm.
+
+Playable version - https://play.unity.com/mg/other/webgl-builds-354119

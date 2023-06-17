@@ -23,6 +23,7 @@ public class SpawnManager : MonoBehaviour
         
     }
 
+    // Spawns obstacles every 2 seconds
     void spawnObstacle()
     {
         int index = Random.Range(0, obstaclePrefab.Length);

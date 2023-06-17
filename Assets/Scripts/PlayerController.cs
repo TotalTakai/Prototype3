@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
         else return false;
     }
 
-
+    // Animations at the start of the game
     private void WalkToSpawn()
     {
         if (transform.position.x != startingPos.x) 
